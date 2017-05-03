@@ -1,0 +1,29 @@
+/* pages/welcome/welcome.wxss */
+@import "../../common/lib/weui.wxss";
+
+.iSearch {
+  border: solid 1px;
+  border-radius: 50px;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 50rpx;
+}
+
+view {
+  text-align: center;
+}
+
+.weui-grid {
+  border-radius: 100rpx;
+  margin-left: 20rpx;
+  padding: 0 0;
+  width:25%;
+}
+
+.page{
+    margin-top:50rpx;
+}
+
+.page view{
+    margin-left:10%;
+}

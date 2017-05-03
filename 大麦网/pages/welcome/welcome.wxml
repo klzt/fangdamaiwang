@@ -1,0 +1,15 @@
+<view style="margin-top:40%;">
+  <image mode="scaleToFill" src="../../images/logo1.jpg" style="width:30%;height:200rpx;"></image>
+  <view>搜索一下，演出即达</view>
+  <input class="iSearch" />
+</view>
+
+<view class="page">
+  <view>
+    <block wx:for-items="{{grids}}">
+      <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+        <view class="weui-grid__label">{{item}}</view>
+      </navigator>
+    </block>
+  </view>
+</view>
